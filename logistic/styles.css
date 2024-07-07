@@ -1,0 +1,214 @@
+/* Navbar Brand */
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+/* Header Background */
+.header-bg {
+    background-image: url('img/bg5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: left;
+    color: #FEDEBE; /* Warna tulisan FEDEBE */
+    font-size: 1rem; /* Ukuran font */
+}
+
+.header-bg h1, .header-bg p {
+    margin: 0;
+    color: white;
+}
+
+/* Title Background */
+.title-bg {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.title-bg h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+/* Contact Us Section */
+.contact-header-bg {
+    background-image: url('img/bg7.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.contact-box {
+    width: 45%;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-box h3 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-box {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+.partner-logos img {
+    width: 100px;  /* Set a fixed width for the logos */
+    height: auto;  /* Maintain aspect ratio */
+    margin: 10px;  /* Add some space between logos */
+    object-fit: contain;  /* Ensure the logos fit within the set width */
+}
+
+.partner-logos a {
+    display: inline-block;  /* Ensure the logos are displayed inline */
+    text-align: center;  /* Center the logos */
+}
+
+.partner-logos {
+    text-align: center;  /* Center the entire group of logos */
+/* About Us Section */
+}
+.about-header-bg {
+    background-image: url('img/bg3 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+}
+.services-header-bg {
+    background-image: url('img/bg2.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+}
+.vision-box, .mission-box, .feedback-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+.container img {
+    border-radius: 15px; /* Menggunakan border-radius untuk membuat sudut gambar melengkung */
+    overflow: hidden; /* Menghilangkan sudut yang tumpul */
+}
+
+
+.feedback-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.feedback-icon {
+    margin-bottom: 10px;
+}
+
+.feedback-icon i {
+    color: #007bff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.gallery img {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .vision-box, .mission-box, .feedback-box {
+        margin-bottom: 20px;
+    }
+
+   
+    .service-box {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .service-box img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .service-box h3 {
+        color: #333;
+    }
+    
+    .service-box p {
+        color: #666;
+    }
+    .payment-logos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+        grid-gap: 20px; /* Spasi antar kotak */
+    }
+    
+    .payment-box {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .payment-box img {
+        max-width: 100px; /* Ukuran maksimum gambar */
+        height: auto;
+    }
+    
+    
+    .footer {
+        padding-top: 40px;
+        color: #fff;
+    }
+    
+    .footer h5 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+    
+    .footer p {
+        font-size: 1rem;
+    }
+    
+    .footer .text-center {
+        background-color: #fbfdff;
+        padding: 10px 0;
+        position: relative;
+    }
+    
+}
